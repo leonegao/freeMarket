@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<br/><br/><br/>
+<div class="container">
+    <div class="row">
+        <center>
+            <div class="card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="{{ products.image.url }}" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">{{products.name}}</h5>
+                      <p class="card-text">{{products.description}}</p>
+
+                      {%if product.is_sale %}
+                      The sale price :${{products.sale_price}}
+                       {% else %}
+                       Price : ${{products.price}}
+
+                      {%endif%}
+                      <br/><br/>
+                          <div class="row justify-content-center">
+                            <di class="col-md-2">Quantati:</di>
+                            <di class="col-md-2">
+                          <select class="form-select"  id="qty-cart">
+                            <option selected>select</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                            </di>
+                        </div>
+                          <br/><br/>
+                      <a href="{% url 'home' %}" class="btn btn-secondary">Home</a>
+                      <button type="button" value="{{products.id}}" id="add-cart" class="btn btn-secondary">Add To Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </center>
+    </div>
+</div>
+<br/><br/><br/><br/><br/><br/><br/>
+<script>
+  $(document).on('click','#add-cart',function(e){
+    e.preventDefault();
+    $.ajax({
+      type:'POST',
+      url:"{% url 'cart_add' %}",
+      data:{
+        product_id: $('#add-cart').val(),
+        product_qty: $('#qty-cart option:selected' ).text(),
+        csrfmiddlewaretoken:'{{csrf_token}}',
+        action:'post'
+      },
+      success: function(json){
+        //console.log(json)
+        document.getElementById("cart_quantity").textContent=json.qty
+      },
+      error:function(xhr,errmsg,err){
+
+      }
+    });
+  });
+</script>
+{% endblock %}

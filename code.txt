@@ -1,0 +1,671 @@
+
+py -m venv virt 
+virt\Scripts\activate
+pip install django
+django-admin startproject ecom
+py manage.py startapp store
+py manage.py makemigrations
+py manage.py migrate
+setx DB_PASSWORD_YO "your_password"
+Username (leave blank to use 'hp'): admin
+Email address: leonegaouk@gmail.com
+Password:0250
+Password (again):0250
+
+
+
+Round Brilliant, 0.75 Carat, D, VS1 GIA Diamond
+
+<div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Special Item</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$20.00</span>
+                                    $18.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Sale Item</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$50.00</span>
+                                    $25.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Popular Item</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    $40.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Sale Item</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$50.00</span>
+                                    $25.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Fancy Product</h5>
+                                    <!-- Product price-->
+                                    $120.00 - $280.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Special Item</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$20.00</span>
+                                    $18.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Popular Item</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    $40.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+{%for product in products%}
+                    {%if not is_sale and not is_sold %}
+
+                    <div class="col mb-5">
+                        <div class="card h-100">
+
+                            <!-- Product image-->
+                            {% if product.image %}
+                            <img class="card-img-top" src="{{product.image.url}}" alt="..." />
+                            {% else %}
+                            <p>No image available.</p>
+                             {% endif %}
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">{{product.name}}</h5>
+                                    <!-- Product price-->
+                                    ${{product.price}}
+                                    <br/>
+                                    {{product.description}}
+                                    {{product.category}}
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    {% else %}
+                      {%if is_sale%}
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+
+                            <!-- Product image-->
+                            {% if product.image %}
+                            <img class="card-img-top" src="{{product.image.url}}" alt="..." />
+                            {% else %}
+                            <p>No image available.</p>
+                             {% endif %}
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">{{product.name}}</h5>
+                                    <!-- Product price-->
+                                     <strike>
+                                        ${{product.price}}
+                                     </strike>
+                                     Sale Price:${{product.sale_price}}
+                                    <br/>
+                                    {{product.description}}
+                                    {{product.category}}
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    {%if is_sold %}
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sold</div>
+
+                            <!-- Product image-->
+                            {% if product.image %}
+                            <img class="card-img-top" src="{{product.image.url}}" alt="..." />
+                            {% else %}
+                            <p>No image available.</p>
+                             {% endif %}
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">{{product.name}}</h5>
+                                    <!-- Product price-->
+
+                                     Sale Price:${{product.sold_price}}
+                                    <br/>
+                                    {{product.description}}
+                                    {{product.category}}
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    {%endif%}
+                    {% endfor %}
+
+
+
+my work:
+{%for product in products%}
+                    {%if not is_sale and not is_sold %}
+
+                    <div class="col mb-5">
+                        <div class="card h-100">
+
+                            <!-- Product image-->
+                            {% if product.image %}
+                            <img class="card-img-top" src="{{product.image.url}}" alt="..." />
+                            {% else %}
+                            <p>No image available.</p>
+                             {% endif %}
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">{{product.name}}</h5>
+                                    <!-- Product price-->
+                                    ${{product.price}}
+                                    <br/>
+                                    {{product.description}}
+                                    {{product.category}}
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    {% else %}
+                      {%if is_sale%}
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+
+                            <!-- Product image-->
+                            {% if product.image %}
+                            <img class="card-img-top" src="{{product.image.url}}" alt="..." />
+                            {% else %}
+                            <p>No image available.</p>
+                             {% endif %}
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">{{product.name}}</h5>
+                                    <!-- Product price-->
+                                     <strike>
+                                        ${{product.price}}
+                                     </strike>
+                                     Sale Price:${{product.sale_price}}
+                                    <br/>
+                                    {{product.description}}
+                                    {{product.category}}
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    {% elif is_sold %}
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sold</div>
+
+                            <!-- Product image-->
+                            {% if product.image %}
+                            <img class="card-img-top" src="{{product.image.url}}" alt="..." />
+                            {% else %}
+                            <p>No image available.</p>
+                             {% endif %}
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">{{product.name}}</h5>
+                                    <!-- Product price-->
+
+                                     Sale Price:${{product.sold_price}}
+                                    <br/>
+                                    {{product.description}}
+                                    {{product.category}}
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    {%endif%}
+                    {% endfor %}
+
+
+{% for product in products %}
+                    {% if not is_sale and not is_sold %}
+                      <div class="col mb-5">
+                        <div class="card h-100">
+                          {% if product.image %}
+                            <img class="card-img-top" src="{{ product.image.url }}" alt="..." />
+                          {% else %}
+                            <p>No image available.</p>
+                          {% endif %}
+
+                          <div class="card-body p-4">
+                            <div class="text-center">
+                              <h5 class="fw-bolder">{{ product.name }}</h5>
+                              {{ product.price }}
+                              <br />
+                              {{ product.description }}
+                              {{ product.category }}
+                            </div>
+                          </div>
+
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                              <a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    {% else %}
+                      {% if is_sale %}
+                        <div class="col mb-5">
+                          <div class="card h-100">
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            {% if product.image %}
+                            <img class="card-img-top" src="{{product.image.url}}" alt="..." />
+                            {% else %}
+                            <p>No image available.</p>
+                             {% endif %}
+                             <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">{{product.name}}</h5>
+                                    <!-- Product price-->
+                                    <strike>
+                                        ${{product.price}}
+                                     </strike>
+                                    ${{product.sale_price}}
+                                    <br/>
+                                    {{product.description}}
+                                    {{product.category}}
+                                </div>
+                            </div>
+                        </div>
+                      {% endif %}
+
+                      {% if is_sold %}
+                        <div class="col mb-5">
+                          <div class="card h-100">
+                            <div class="card-body p-4">
+                              <div class="text-center">
+                                <h5 class="fw-bolder">{{ product.name }}</h5>
+                                <br />
+                                {{ product.description }}
+                                {{ product.category }}
+                                <p>Sold Out</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+
+
+'APP_ID': '402686104008-b8f4lk5mtto65hjpa8s6jljh400hk0rc.apps.googleusercontent.com',
+        'SECRET_KEY': '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'
+
+
+<!--<a href="{% provider_login_url 'google'%}next=/?"><h2>Google Login</h2></a>-->
+
+Password strength checking
+
+Throttling of login attempts
+
+Authentication against third-parties (OAuth, for example)
+
+Object-level permissions
+auth-receiver
+
+<button class="btn btn-outline-dark" type="submit">
+                    <i class="bi-cart-fill me-1"></i>
+                    Cart
+                    <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                </button>
+
+
+
+def delete(self, product):
+        product_id = str(product)
+		if product_id in self.cart:
+            del self.cart[product_id]
+
+		self.session.modified = True
+
+		# Deal with logged in user
+		if self.request.user.is_authenticated:
+			# Get the current user profile
+			current_user = Profile.objects.filter(user__id=self.request.user.id)
+			# Convert {'3':1, '2':4} to {"3":1, "2":4}
+			carty = str(self.cart)
+			carty = carty.replace("\'", "\"")
+			# Save carty to the Profile Model
+			current_user.update(old_cart=str(carty))
+
+
+    <li class="nav-item"><a class="nav-link" href="{% url 'update_user' %}">Profile</a></li>
+
+
+
+urlpatterns = [
+    path('',views.videos,name="index"),
+    path('signup', views.signup, name="signup"),
+    path('signin', views.signin, name="signin"),
+    path("settings", views.settings, name="settings"),
+    path('logout', views.logout, name="logout"),
+    path('upload', views.upload, name='upload'),
+    path('profile/<str:pk>/', views.profile, name='profile'),
+    path('follow', views.follow, name='follow'),
+    path('like-post', views.like_post, name='like-post'),
+    path('search',views.search,name='search'),
+    path('delete_post/<uuid:uuid>/', views.delete_post, name='delete_post'),
+    path('videos',views.videos,name='videos'),
+    path('uploads',views.uploads,name='uploads'),
+    path('searchFighter',views.searchFighter,name='searchFighter'),
+    path('blog',blogView.as_view(), name='blog'),
+    path('post',AddPostView.as_view(),name='post'),
+    path('article/edit/<int:pk>',UpdatePostView.as_view(),name='update_post'),
+    path('article/<int:pk>/delete',DeletePostView.as_view(),name='delete_blog'),
+    path('about',views.about,name='about'),
+    path('uploadx', views.uploadx, name='uploadx'),
+    path('video_dashboard',views.video_dashboard,name='video_dashboard'),
+    path('ads.txt', AdsView.as_view()),
+
+
+
+]
+@login_required(login_url='signin')
+
+https://www.fighterbooks.com/
+
+
+
+that is my view.py 
+def videos(request):
+    user_object = User.objects.get(username=request.user.username)
+    user_profile=Profile.objects.get(user=user_object)
+    posts= Post.objects.all().order_by('-created_at') # Order the posts by descending id
+
+    prev_user = None
+    filtered_posts = []
+
+    for post in posts:
+        if post.user != prev_user:
+            filtered_posts.append(post)
+            prev_user = post.user
+    paginator = Paginator(filtered_posts, 3) # Create a Paginator object with 5 posts per page
+    page_number = request.GET.get('page') # Get the page number from the request
+    page_obj = paginator.get_page(page_number) # Get the page object for the given page number
+    return render(request, 'allVideos.html', {'page_obj': page_obj, 'user_profile':user_profile}) # Render the index.html template with the page object
+
+that is the error 
+ File "/home/warriox/xvenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/warriox/xvenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/warriox/fightbook/core/views.py", line 427, in videos
+    user_object = User.objects.get(username=request.user.username)
+  File "/home/warriox/xvenv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/warriox/xvenv/lib/python3.10/site-packages/django/db/models/query.py", line 647, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+
+could you please show me how to overcome that problem as I want to show that viewing if the user is not login
+
+{% if user.is_authenticated %}
+{% endif %}
+
+
+
+ {% if user.is_authenticated %}
+                        <a href="/profile/{{user_profile.user}}">
+                            <img src="{{user_profile.profileimg.url}}" class="header-avatar" alt="">
+                        </a>
+                       {% endif %}
+'signin'
+
+ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'mIXOqIKovJldcjarZwuoTWjEJVLBtKba',
+        'HOST': 'postgres.railway.internal',
+        'PORT': '5432',
+
+
+
+<!--<a href="{% provider_login_url 'google'%}next=/?"><h2>Google Login</h2></a>-->
+
+
+DATABASES = {
+    'default': dj_database_url.config(
+        default='postgresql://postgres:mIXOqIKovJldcjarZwuoTWjEJVLBtKba@autorack.proxy.rlwy.net:54585/railway',
+        conn_max_age=1800
+    )
+}
+git remote add origin https://github.com/leonegao/ecommerce.git
+git branch -M main
+git push origin main
+
+
+'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
+
+
+# Google loggimg
+SITE_ID=2
+ACCOUNT_ADAPTER = 'allauth.account.adapter.DefaultAccountAdapter'
+SOCIALACCOUNT_ADAPTER = 'allauth.socialaccount.adapter.DefaultSocialAccountAdapter'
+
+
+   'allauth.account.middleware.AccountMiddleware',
+
+SOCIALACCOUNT_PROVIDERS = {
+    'google': {
+        "SCOPE":[
+            "profile",
+            "email"
+        ],
+        "AUTH_PARAMS":{"access_type": "online"},
+
+    }
+}
+
+    path('accounts/', include('allauth.urls')),
+
+
+
+
+
+{"web":{"client_id":"402686104008-b8f4lk5mtto65hjpa8s6jljh400hk0rc.apps.googleusercontent.com",
+"project_id":"myecommerce-440621","auth_uri":"https://accounts.google.com/o/oauth2/auth",
+"token_uri":"https://oauth2.googleapis.com/token",
+"auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
+"client_secret":"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",
+"redirect_uris":["http://127.0.0.1:8000","http://127.0.0.1:8000/accounts/google/login/callback"]}}
+
+LOGIN_REDIRECT_URL = '/'
+ACCOUNT_LOGOUT_REDIRECT_URL = '/'
+ACCOUNT_LOGIN_REDIRECT_URL = '/'
+
