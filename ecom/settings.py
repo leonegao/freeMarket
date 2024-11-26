@@ -27,8 +27,8 @@ SECRET_KEY = 'django-insecure-wicwcn4+3#2%wdbuz7a$v$)x4%s-f4=7b2#tfg&^m^91xa!g#(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['freemarket-production.up.railway.app','https://freemarket-production.up.railway.app']
-CSRF_TRUSTED_ORIGINS =['freemarket-production.up.railway.app','https:freemarket-production.up.railway.app']
+ALLOWED_HOSTS = ['*']
+#CSRF_TRUSTED_ORIGINS =[]
 
 
 # Application definition
