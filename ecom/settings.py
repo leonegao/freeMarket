@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 import os
-
+import dj_database_url
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -27,8 +27,8 @@ SECRET_KEY = 'django-insecure-wicwcn4+3#2%wdbuz7a$v$)x4%s-f4=7b2#tfg&^m^91xa!g#(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['freemarket-production.up.railway.app','https://freemarket-production.up.railway.app']
-CSRF_TRUSTED_ORIGINS =['freemarket-production.up.railway.app','https://freemarket-production.up.railway.app']
+ALLOWED_HOSTS = ['*']
+#CSRF_TRUSTED_ORIGINS =[]
 
 
 # Application definition
@@ -96,12 +96,11 @@ DATABASES = {
 }
 '''
 
-import dj_database_url
-
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://postgres:mIXOqIKovJldcjarZwuoTWjEJVLBtKba@autorack.proxy.rlwy.net:54585/railway',
-        conn_max_age=1800
+         default="sqlite:///"+os.path.join(BASE_DIR,"db.sqlite")
+
+
     )
 }
 
